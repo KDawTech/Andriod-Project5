@@ -1,4 +1,5 @@
 package com.example.project5
+import com.example.project5.BuildConfig
 
 import android.os.Bundle
 import android.widget.Button
@@ -13,7 +14,11 @@ import java.time.LocalDate
 
 class MainActivity : AppCompatActivity() {
 
-    private val apiKey = "YLAVGKHuPV7fIXaEZuZEreVzzLqHCJJkIJ644bWp" // Replace with your actual NASA API key
+    val apiKey = BuildConfig.NASA_API_KEY
+
+
+
+// Replace with your actual NASA API key
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
