@@ -3,7 +3,7 @@
 
 # AND101 Project 5 - Choose Your Own API(i CHOOSE NASA)
 
-Submitted by: Kevin
+Submitted by: Kevon Dawkins
 
 Time spent: 8 hours spent in total
 
