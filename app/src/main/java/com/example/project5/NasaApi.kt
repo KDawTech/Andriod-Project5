@@ -8,6 +8,6 @@ interface NasaApi {
     @GET("planetary/apod")
     fun getApod(
         @Query("api_key") apiKey: String,
-        @Query("date") date: String
-    ): Call<ApodResponse>
+        @Query("count") count: Int = 10
+    ): Call<List<ApodResponse>>
 }
