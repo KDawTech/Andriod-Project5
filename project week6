@@ -1,0 +1,64 @@
+# AND101 Project 6 - CYOAPI Part 2: RecyclerView Edition
+
+Submitted by: kevon dawkins
+
+Time spent: 18 hours spent in total  
+
+---
+
+## Summary
+**NASA APOD Viewer** is an Android app that fetches NASA’s *Astronomy Picture of the Day* endpoint and shows a **scrollable gallery** of the day’s images, each with its title and short description.
+
+If I had to describe this project in three emojis, they would be: **🚀 🌌 📷**
+
+---
+
+## Application Features
+> *Checked items are implemented.*
+
+### Required
+- [x] Make an API call to an API of your choice using AsyncHTTPClient (Retrofit)
+- [x] Implement a RecyclerView to display a list of entries from the API
+- [x] Display at least three (3) pieces of data for each RecyclerView item  
+  *Image, Title, Explanation*
+
+### Stretch
+- [ ] Add a UI element for the user to interact with API further  
+- [ ] Show a `Toast` or `Snackbar` when an item is clicked  
+- [ ] Add item dividers with `DividerItemDecoration`
+
+### Extra
+- [ ] *No extra features added*
+
+---
+
+## Video Demo
+Here’s a GIF that demos the implemented features:
+
+<img src="https://github.com/KDawTech/Andriod-Project5/blob/main/app/Andriod%20Project6%20demo.gif" width="300" alt="Demo GIF" />
+
+*(Recorded with ScreenToGif)*
+
+---
+
+## Notes
+- Learned how to expose a **BuildConfig** field from `local.properties` so API keys stay out of VCS.  
+- Debugged Retrofit 403 errors by inspecting `response.errorBody()` and verifying key quotas.  
+- Practiced migrating from view binding to **data binding** for cleaner adapter code.
+wasnt able to complete as my PC files are corrupted.
+
+---
+
+## License
+Copyright 2025 kevon dawkins
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
